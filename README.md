@@ -1,19 +1,22 @@
 # Machine-Learning-Project
 Car Price Prediction Project - Analysis & Insights
 
-Data Preprocessing
+1.Data Preprocessing
+
  Steps Taken:
-  Loaded the dataset and checked for missing values.
-  Handled missing or incorrect values appropriately.
-  Transformed the data to fix the abnormality in skewness.
-  Encoded categorical variables (e.g., car brands, fuel types) using one-hot encoding.
-  Standardized/normalized numerical features for better model performance.
+  * Loaded the dataset and checked for missing values.
+  * Handled missing or incorrect values appropriately.
+  * Transformed the data to fix the abnormality in skewness.
+  * Encoded categorical variables (e.g., car brands, fuel types) using one-hot encoding.
+  * Standardized/normalized numerical features for better model performance.
+  
  Insights:
-  Proper data preprocessing ensured that the dataset was clean and ready for machine learning models.
-  Encoding categorical variables allowed the models to interpret non-numeric features effectively.
+  * Proper data preprocessing ensured that the dataset was clean and ready for machine learning models.
+  * Encoding categorical variables allowed the models to interpret non-numeric features effectively.
 
 
 2️. Outlier Detection & Treatment
+
 Steps Taken:
 Used boxplots to visualize and detect outliers in numerical variables.
 Capped extreme values using IQR-based capping or transformation techniques.
